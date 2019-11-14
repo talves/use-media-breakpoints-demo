@@ -32,7 +32,7 @@ export default function useMediaBreakpoints(queries, values, defaultValue) {
     function queryHandler() {
       // Get index of first media query that matches
       const index = queryList.findIndex(mq => mq.matches);
-      console.log(`index: ${index}`);
+      // console.log(`index: ${index}`);
       // Return related value or defaultValue if none
       setValue(index === -1 ? defaultValue : values[index]);
     }
