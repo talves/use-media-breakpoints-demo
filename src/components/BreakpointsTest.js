@@ -13,5 +13,9 @@ export default () => {
     "mobile"
   );
 
-  return <div>{value}</div>;
+  return (
+    <div className="breakpoint">
+      <h2>{value}</h2>
+    </div>
+  );
 };

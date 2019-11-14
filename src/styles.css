@@ -2,3 +2,26 @@
   font-family: sans-serif;
   text-align: center;
 }
+.breakpoint {
+  background-color: lightblue;
+}
+@media only screen and (max-width: 1440px) {
+  .breakpoint {
+    background-color: rgb(148, 231, 166);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .breakpoint {
+    background-color: rgb(214, 230, 73);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .breakpoint {
+    background-color: rgb(182, 93, 42);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .breakpoint {
+    background-color: rgb(201, 70, 228);
+  }
+}
